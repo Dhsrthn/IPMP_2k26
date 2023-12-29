@@ -1,2 +1,4 @@
 #VSCode output files
-/STL/output
+**/output
+
+**/.vscode

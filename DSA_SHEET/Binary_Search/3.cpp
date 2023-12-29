@@ -20,9 +20,8 @@ int binarySearch(vector<int> array, int l, int r, int key)
     return -1;
 }
 
-int main()
-{
-    vector<int> array;
+int main(){
+    vector <int> array;
     int size;
     cout << "Enter number of elements you want to insert" << endl;
     cin >> size;
@@ -39,11 +38,15 @@ int main()
     int position = binarySearch(array, 0, size-1, key);
     if (position == -1)
     {
-        cout << "Element not found" << endl;
+        cout << "Element not found at all" << endl;
     }
     else
     {
-        cout << "Element found in position " << position << endl;
+        if(array[position+ ((size/2)-1)] == key){
+            cout<<"True";
+        }else{
+            cout<<"False";
+        }
     }
     return 1;
 }

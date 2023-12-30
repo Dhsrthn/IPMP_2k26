@@ -9,7 +9,7 @@ int pivotedBinarySearch(vector<int> array, int l, int r)
         m = l + (r - l) / 2;
         if (array[l] >= array[m])
             r = m;
-        else if (array[m] > +array[r])
+        else if (array[m] > array[r])
             l = m;
     }
 

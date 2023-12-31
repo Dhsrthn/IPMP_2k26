@@ -29,6 +29,8 @@ int main(){
         cin >> k;
         array.push_back(k);
     }
+    // vector<int> array={10,11,23,1,3,56,78,45};
+    // int size=8;
     cout<<Longestlength(array,size)<<endl;;
     return 1;
 }

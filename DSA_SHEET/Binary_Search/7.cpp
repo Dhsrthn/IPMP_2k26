@@ -34,6 +34,10 @@ int main(){
         cin >> k;
         array.push_back(k);
     }
+
+    // vector<int> array={-1,0,2,3,5,6};
+    // int size=6;
+
     int fixedPoint = fixedPointBinary(array,size);
     if(fixedPoint==-1){
         cout<<"No fixed point found"<<endl;

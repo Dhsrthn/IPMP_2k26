@@ -36,6 +36,11 @@ int main()
     cout << "Enter element to search" << endl;
     int key;
     cin >> key;
+
+    // vector<int> array={1,2,3,4,5};
+    // int size=5;
+    // int key=3;
+
     int position = binarySearch(array, 0, size-1, key);
     if (position == -1)
     {

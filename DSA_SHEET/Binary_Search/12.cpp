@@ -39,6 +39,10 @@ int main()
         cin >> k;
         array.push_back(k);
     }
+
+    // vector<int> array={4,5,1,2,3};
+    // int size=5;
+    cout<<"Minimum element is"<<endl;
     int pivot = pivotedBinarySearch(array, 0, size-1);
     cout<<array[pivot]<<endl;
     

@@ -37,5 +37,3 @@ int main(){
     return 1;
     
 }
-
-//not binary search (?)

@@ -54,6 +54,10 @@ int main(){
     int key;
     cin>>key;
 
+    // vector<int> array={1,2,3,3,3,3,4,4,5};
+    // int size=9;
+    // int key=3;
+
     int lPos=firstOccur(array,0,size-1,key);
     
     if(lPos==-1){

@@ -38,6 +38,10 @@ int main()
     int key;
     cin >> key;
 
+    // vector<int> array={1,2,3,4,5};
+    // int size=5;
+    // int key=3;
+
     if (key < array[0])
     {
         cout << "Floor does not exist" << endl;

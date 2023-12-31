@@ -33,6 +33,9 @@ int main(){
         array.push_back(k);
     }
 
+    // vector<int> array={4,5,6,3,2};
+    // int size=5;
+
     int highest = findMax(array,0,size-1);
     cout<<"Maximum element is "<<highest<<endl;
 
